@@ -1,5 +1,5 @@
 <?php
-   header('Access-Control-Allow-Origin: *'); 
+
    $plantilla=(object)null;
    $plantilla->imagen =(string)"<img src='imagenes\Logo_gTRASPARENTE.png'>";
    $plantilla->menu =(string)"
@@ -10,5 +10,5 @@
 ";
    $plantilla-> buscar =(string)"
    <input type='text' placeholder='Buscar'>
-   <ion-icon name= 'search'></ion-icon>";
+   <ion-icon name= 'search'></ion-icon>";  
 ?>

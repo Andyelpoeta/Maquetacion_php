@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+:root{
+    --colorPrincipal: #000;
+    --colorLetras: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--colorPrincipal);
+    font-family: 'Orbitron', sans-serif;
+}
+/**Menu*/
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    z-index: 100;
+}
+header .logo img{
+    max-width: 250px;
+}
+.navigation{
+    display: flex;
+}
+.navigation li {
+    list-style: none;
+    margin: 0 10px;
+}
+.navigation li a{
+    color: var(--colorLetras);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navigation li:hover a{
+    opacity: .7;
+}
+.search{
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+.search input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--colorLetras);
+    font-size: 1em;
+    font-weight: 400;
+    background: transparent;
+    border: 1px solid var(--colorLetras);
+    outline: none;
+    border-radius: 2px;
+    padding: 0 12px 0 45px;
+}
+.search input::placeholder{
+    color: var(--colorLetras);
+    font-weight: 500;
+}
+.search ion-icon{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    padding-right: 7px;
+    color: var(--colorLetras);
+    font-size: 20px;
+    border-right: 1px solid var(--colorLetras);
+}

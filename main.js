@@ -1,3 +1,4 @@
+// https://andyelpoeta.000webhostapp.com/Maquetacion_php/api.php
 addEventListener("DOMContentLoaded", async(e)=>{
     let peticion = await fetch("https://andyelpoeta.000webhostapp.com/Maquetacion_php/api.php");
     let json = await peticion.json();

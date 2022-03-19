@@ -1,5 +1,6 @@
 <?php
    $plantilla->imagen =(string)"<img src='imagenes\Logo_gTRASPARENTE.png'>";
+   
    $plantilla->menu =(string)"
       <li><a href='#'>Inicio</a></li>
       <li><a href='#'>Galeria</a></li>
@@ -10,6 +11,4 @@
    <input type='text' placeholder='Buscar'>
    <ion-icon name= 'search'></ion-icon>"
    ; 
-
-   
-?>
+?> 

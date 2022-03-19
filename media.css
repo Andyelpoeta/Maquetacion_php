@@ -1,0 +1,44 @@
+@media(max-width: 991px){
+    body{
+        background-image: url('imagenes/juju.jpeg') !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
+        background-size: cover !important;
+    }
+    header{
+        padding: 20px 50px !important;
+        flex-direction: column;
+    }
+    .navigation{
+        display: flex !important;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+    .banner{
+        padding:190px 20px 0px 20px !important;
+    }
+    .banner .play{
+        left: 15px;
+        bottom: -70px;
+        font-size: 1em;
+    }
+    .play ion-icon{
+        margin-right: 10px;
+        max-width: 50px;
+    }
+    .play::before{
+        left: 5px !important;
+        background-size: var(--tamanoGifMovil) !important;
+        width: var(--tamanoGifMovil) !important;
+        height: var(--tamanoGifMovil) !important;
+    }
+    .trailer video{
+        max-width: 90% !important;
+    }
+    .banner .bg{
+        display: none;
+    }
+
+} 

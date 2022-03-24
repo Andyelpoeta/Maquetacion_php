@@ -2,7 +2,6 @@
 $plantilla->articuloImagen = (string) '<img src="imagenes/junior.jpg" class="bg">';
 $plantilla->parteFondo = (string) '
         <div class="content"> 
-            <img src="img/sinta1.png" class="movieTitle">
             <h4>
                 <span><u>Geissón Pabon</u></span>  
                 <span><u>2017</u></span>

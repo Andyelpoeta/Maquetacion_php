@@ -1,6 +1,6 @@
 @media(max-width: 991px){
     body{
-        background-image: url('imagenes/juju.jpeg') !important;
+        background-image: url('imagenes/junior.jpg') !important;
         background-position: center center !important;
         background-repeat: no-repeat !important;
         background-attachment: fixed !important;
@@ -10,12 +10,13 @@
         padding: 20px 50px !important;
         flex-direction: column;
     }
-    .navigation{
-        display: flex !important;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 10px 0;
-    }
+
+.navigation{
+    display: flex !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
     .banner{
         padding:190px 20px 0px 20px !important;
     }
